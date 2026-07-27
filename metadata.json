@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Fact-Checker",
+  "description": "An AI-powered application to help verify information and identify potential misinformation. Enter a claim, and the app will use Google Search to analyze its veracity and provide sources.",
+  "requestFramePermissions": []
+}
