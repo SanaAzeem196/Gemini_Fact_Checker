@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { FactCheckResult, Verdict, Source } from '../types';
 
 const getApiKey = (): string | undefined => {
-  const viteKey = (import.meta as { env?: Record<string, string | undefined> }).env?.VITE_GEMINI_API_KEY;
+  const viteKey = (import.meta as { env?: Record<string, string | undefined> }).env?.GEMINI_API_KEY;
   if (viteKey) {
     return viteKey;
   }
